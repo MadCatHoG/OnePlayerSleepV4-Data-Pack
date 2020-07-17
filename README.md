@@ -22,8 +22,12 @@ Some of the features include:
   - Removed references to old data packs and scoreboards
   - Updated meta data for the new data pack browser introduced in Minecraft 1.16 
 
-## Version 4.1 Changelod:
-  - 
+## Version 4.1 Changelog:
+  - Fixed predicate to consider clearing regular rain, it was only clearing storms
+
+## Version 4.1 Changelog:
+  - Added more sleeping messages! (Suggested by DrathMorg)
+  - Changed sleeping color message
 
 # More resources
 A download list of [Minecraft 1.16 Data Packs][dplist] where this is included
