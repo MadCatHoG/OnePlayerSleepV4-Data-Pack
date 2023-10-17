@@ -1,6 +1,8 @@
-# One Player Sleep Data Pack for Minecraft 1.16 ++
+# One Player Sleep Data Pack for Minecraft 1.15 to 1.20++
 
-Thank you for choosing my data pack! To better serve the community I've  added some fool-proofing needed for servers with odd settings like having the weather cycle off. Many years of testing in several servers and addressing all the problems has made this a really solid pack.
+Thank you for choosing my data pack! Many years of testing in several servers and addressing all the problems has made this a really solid pack.
+
+To better serve the community I've  added some fool-proofing needed for servers with odd settings (like having the weather cycle off).
 
 ## Features
 
@@ -34,6 +36,12 @@ Some of the features include:
 - Added more sleeping messages! There is a total of 22 now. Thanks to DrathMorg for the suggestions!
 - Changed text colors to use the hex colors introduced in 1.16
 - Updated pack image to reflect the version
+
+## Version 4.3 Changelog
+
+- Updated for Minecraft 1.20 onwards (a real test of time!). Thanks to Auzathoth for a very helpful fix for this version
+- Updated pack version and image
+- Modified the release folder in GitHub to better reflect compatibility with Minecraft versions
 
 ## More resources
 
