@@ -2,8 +2,10 @@
 # Author: MadCat (youtube.com/MadCatHoG) 
 # Date: May 11, 2020
 # Last update: Oct, 17, 2023
-# Version: 4.3
-# Minecraft Version 1.20 ++
+# Updates: Auzathoth (youtube.com/Auzathoth)
+# Last update: Mar 15, 2026
+# Version: 4.6
+# Minecraft Version 1.21.11+
 # Description:
 # Actions to wake up a player.
 # Messages to woken up players.

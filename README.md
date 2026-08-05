@@ -39,9 +39,36 @@ Some of the features include:
 
 ## Version 4.3 Changelog
 
-- Updated for Minecraft 1.20 onwards (a real test of time!). Thanks to Auzathoth for a very helpful fix for this version
+- Updated for Minecraft 1.20 (a real test of time!). Thanks to Auzathoth for a very helpful fix for this version
 - Updated pack version and image
 - Modified the release folder in GitHub to better reflect compatibility with Minecraft versions
+
+## Version 4.4 Changelog
+
+- Updated for Minecraft 1.21 - 1.21.4
+- functions are now stored in function
+
+## Version 4.5 Changelog
+
+- Update for Minecraft 1.21.5 - 1.21.10
+- clickEvent -> click_event
+- hoverEvent -> hover_event
+- value is some elements is now specifically command or url
+
+## Version 4.6 Changelog
+
+- Update for MC 1.21.11
+- doWeatherCycle is now advance_weather
+
+## Version 4.7 Changelog
+
+- Update for MC 26.1 - 26.1.2
+- time features need to specify which dimension 
+
+## Version 4.8 Changelog
+
+- Update for MC 26.2
+- "type" in predicates is now "minecraft:entity_type"
 
 ## More resources
 

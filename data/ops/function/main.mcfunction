@@ -2,8 +2,10 @@
 # Author: MadCat (youtube.com/MadCatHoG) 
 # Date: May 11, 2020
 # Last update: Oct, 17, 2023
-# Version: 4.3
-# Minecraft Version 1.20 ++
+# Updates: Auzathoth (youtube.com/Auzathoth)
+# Last update: Mar 15, 2026
+# Version: 4.6
+# Minecraft Version 1.21.11+
 # Description:
 # One Player Sleep Function loop
 ##########################################
@@ -11,13 +13,13 @@
 scoreboard players add #sleep_message ops.status 1
 scoreboard players add #kick_message ops.status 1
 
-execute store result score #wc_status ops.status run gamerule doWeatherCycle
+execute store result score #wc_status ops.status run gamerule advance_weather
 
 execute as @a[predicate=ops:start_sleep] run scoreboard players enable @a ops.wakeup 
 execute as @a[predicate=ops:start_sleep] run function ops:message
 
 # Change the line below to pass the night faster by adding more time after "add"
-execute as @a[predicate=ops:sleeping] run time add 40
+execute as @a[predicate=ops:sleeping] run time of minecraft:overworld add 40
 
 execute as @a[predicate=ops:sleeping] if score #wc_status ops.status matches 1 run execute if predicate ops:end_night if predicate ops:weather run weather thunder 1
 execute as @a[scores={ops.wakeup=1}] at @s run function ops:wakeup
